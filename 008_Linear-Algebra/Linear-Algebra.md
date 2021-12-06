@@ -89,7 +89,86 @@ $$
     a3 & b3 & c3\\
 \end{bmatrix} 
 \begin{bmatrix} 
-    x & y & z\\
+    x \\
+    y \\
+    z \\
 \end{bmatrix} 
 \tag{7}
 $$
+
+## 二阶矩阵A 与 平面向量X 的 乘积
+$$
+\bm{A} =
+\begin{bmatrix} 
+    a & b \\
+    c & d \\
+\end{bmatrix}
+\tag{8}
+$$
+
+$$
+\bm{X} =
+\begin{bmatrix} 
+    x \\
+    y \\
+\end{bmatrix} 
+\tag{9}
+$$
+
+$$
+\bm{Y} =
+\begin{bmatrix} 
+    ax & by \\
+    cx & dy \\
+\end{bmatrix} 
+\tag{10}
+$$
+
+$$
+\bm{A}\bm{X}=\bm{Y}
+\tag{11}
+$$
+
+## 变换公式
+
+$$
+\bm{A}(\bm{X} + \bm{Y}) = \bm{A}\bm{X} + \bm{A}\bm{Y}
+\tag{12}
+$$
+
+$$
+\bm{A}( \lambda \bm{X}) = \lambda (\bm{A}\bm{X})
+\tag{13}
+$$
+
+## 矩阵变换
+
+## 二阶方阵的乘法
+
+### 二阶方阵的乘法
+
+### 矩阵乘法运算律
+
+## 逆矩阵
+
+### 来源
+
+### 性质
+
+### 求逆矩阵
+
+## 矩阵解二元一次方程组
+
+### 二元一次方程组
+
+### 矩阵解二元一次方程组
+
+### 解的存在与唯一
+
+## 变换的不变量
+
+### 特征值
+
+### 特征向量
+
+### 特征值不变
