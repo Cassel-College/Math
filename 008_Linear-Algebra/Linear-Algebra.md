@@ -143,19 +143,141 @@ $$
 
 ## 矩阵变换
 
+* 零向量的归零属性
+
+### 恒等变化
+
+$$
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} = 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix}
+\tag{14}
+$$
+
+### 反射变化
+`
+$$
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & -1 \\
+\end{bmatrix} = 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & -1 \\
+\end{bmatrix}
+\tag{15}
+$$
+### 伸压变化
+
+$$
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} 
+\begin{bmatrix} 
+    k & 0 \\
+    0 & k \\
+\end{bmatrix} = 
+\begin{bmatrix} 
+    k & 0 \\
+    0 & k \\
+\end{bmatrix}
+\tag{16}
+$$
+
+### 旋转变化
+
+$$
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} 
+\begin{bmatrix} 
+    cos\theta & -sin\theta \\
+    sin\theta & cos\theta \\
+\end{bmatrix} = 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix}
+\tag{17}
+$$
+
+### 投影变化
+
+$$
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 1 \\
+\end{bmatrix} 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 0 \\
+\end{bmatrix} = 
+\begin{bmatrix} 
+    1 & 0 \\
+    0 & 0 \\
+\end{bmatrix}
+\tag{18}
+$$
+
 ## 二阶方阵的乘法
 
 ### 二阶方阵的乘法
 
+* 行列式
+
 ### 矩阵乘法运算律
+
+* 传递
 
 ## 逆矩阵
 
 ### 来源
 
+$$
+AB = BA = E
+\tag{16}
+$$
+
 ### 性质
 
+* 唯一
+* 可逆矩阵的传递
+
 ### 求逆矩阵
+
+$$
+AB = BA = E
+\tag{17}
+$$
+
+$$
+B = A^{-1}
+\tag{18}
+$$
+
+$$
+ABB^{-1}A^{-1} = A(BB^{-1})A^{-1} = AEA^{-1} = AEA^{-1} = E
+\tag{19}
+$$
+
+$$
+(A^{-1})^{-1} = A
+$$
 
 ## 矩阵解二元一次方程组
 
@@ -167,8 +289,20 @@ $$
 
 ## 变换的不变量
 
+$$
+A\xi = \lambda_{0}\xi
+$$
+
 ### 特征值
 
+$$
+\lambda_{0}
+$$
+
 ### 特征向量
+
+$$
+\xi
+$$
 
 ### 特征值不变
