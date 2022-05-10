@@ -22,7 +22,7 @@ $$
     a3 & b3 & c3 \\
 \end{vmatrix}
 \tag{2}
-$$ 
+$$
 
 ## 平面向量
 
@@ -98,7 +98,7 @@ $$
 
 ## 二阶矩阵A 与 平面向量X 的 乘积
 $$
-\bm{A} =
+{A} =
 \begin{bmatrix} 
     a & b \\
     c & d \\
@@ -107,7 +107,7 @@ $$
 $$
 
 $$
-\bm{X} =
+{X} =
 \begin{bmatrix} 
     x \\
     y \\
@@ -116,7 +116,7 @@ $$
 $$
 
 $$
-\bm{Y} =
+{Y} =
 \begin{bmatrix} 
     ax & by \\
     cx & dy \\
@@ -125,19 +125,19 @@ $$
 $$
 
 $$
-\bm{A}\bm{X}=\bm{Y}
+{A}{X}={Y}
 \tag{11}
 $$
 
 ## 变换公式
 
 $$
-\bm{A}(\bm{X} + \bm{Y}) = \bm{A}\bm{X} + \bm{A}\bm{Y}
+{A}({X} + {Y}) = {A}{X} + {A}{Y}
 \tag{12}
 $$
 
 $$
-\bm{A}( \lambda \bm{X}) = \lambda (\bm{A}\bm{X})
+{A}( \lambda {X}) = \lambda ({A}{X})
 \tag{13}
 $$
 
